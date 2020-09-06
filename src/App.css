@@ -1,0 +1,109 @@
+.header-color{
+  background: #3A1C71;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.landing-grid{
+  background: #3A1C71;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position:fixed;
+  top:8%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.avatar-img{
+  height: 400px;
+  display: block;
+  padding-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  border-radius: 50%;
+  
+  
+}
+.projects-grid {
+  display: flex;
+  align-items:center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.banner-text{
+  /* background-color: black; */
+  opacity: .8;
+  width:50%;
+  padding-bottom: 6em;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1{
+  font-size: 65px;
+  font-weight: bold;
+  color:black;
+  text-align: center;
+  
+}
+.banner-text hr{
+  border-top: 5px dotted black;
+  width:50%;
+  margin:auto;
+}
+.banner-text p {
+  color:black;
+  font-size: 20px;
+  padding:1em;
+  text-align: center;
+}
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin:auto;
+}
+.social-links i{
+  color: white;
+  font-size:5em;
+  padding:8px;
+}
+.contact-body{
+  margin:auto;
+  position:fixed;
+  width:100%;
+  height:100%;
+  justify-content: center;
+  padding-top:2em;
+  font-family:'Caveat' ;
+}
+.contact-grid{
+  text-align:center;
+  justify-content:center;
+  width:80%;
+  height: 550px;
+  background:#fdfcfc;;
+  color:black;
+  border: #FFAF7B;
+  margin-bottom: 20px;
+}
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width :50%;
+  margin:auto;
+}
+.contact-list i{
+  font-size:55px;
+  padding-right: 5rem;
+}
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+.left-half img {
+	width: 179px;
+	height: 173px;
+	border-radius: 90%;
+	box-shadow: 1px 3px 1px #c06c84;
+}
